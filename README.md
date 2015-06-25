@@ -14,12 +14,8 @@ Requires jQuery
 ##Get it##
 
 - [Production JS (minified)](https://raw.github.com/jimkeller/fakeloader/master/dist/fakeloader.min.js)
-- [Development JS (unminified)](https://raw.github.com/jimkeller/fakeloader/master/dist/fakeloader.js)
+- [Development JS (unminified)](https://raw.github.com/jimkeller/fakeloader/master/src/fakeloader.js)
 - [CSS] (https://raw.github.com/jimkeller/fakeloader/master/dist/fakeloader.css)
-
-...or you can use a hosted version...
-
-- [Hosted on CDNJS (minified)](http://cdnjs.cloudflare.com/ajax/libs/jquery.waitforimages/1.5.0/jquery.waitforimages.min.js)
 
 ##How it Works##
 The loading overlay is added to the default markup of your page (see below), and is shown by default. On document.ready, or when [waitForImages](https://github.com/alexanderdickson/waitForImages) fires, the overlay is removed. The overlay is re-added on window.onunload, so that the page appears to transition seamlessly from one to the next. 
