@@ -11,6 +11,8 @@ Supports Google Chrome, Firefox, IE9+
 
 Requires jQuery
 
+Read about a real-world implementation on the [Eastern Standard Blog](http://easternstandard.com/blog/2015/06/elegant-page-transitions-multi-page-website)
+
 ##Get it##
 
 - [Production JS (minified)](https://raw.github.com/jimkeller/fakeloader/master/dist/fakeloader.min.js)
@@ -73,5 +75,5 @@ window.FakeLoader.showOverlay();
 window.FakeLoader.hideOverlay();
 ```
 
-####DEMO####
+###DEMO###
 http://jimkeller.github.io/fakeloader/demo/page1.html
