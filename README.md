@@ -5,7 +5,7 @@ Copyright (c) 2015 Jim Keller, [Eastern Standard](http://easternstandard.com)
 
 ##Overview##
 
-Provides a means to show a loading spinner and overlay so that a multiple page website or application appears to load like a single-page application. It's purely an illusion, there's no ajax magic happening, but it's also very low risk and extremely easy to add to your site.
+Provides a means to show a loading spinner and overlay so that a multiple page website or application appears to load like a single-page application. It's purely an illusion; there's no ajax magic happening, but it's also very low risk and extremely easy to add to your site.
 
 Supports Google Chrome, Firefox, IE9+
 
