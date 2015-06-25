@@ -1,5 +1,5 @@
 # fakeloader
-A jQuery plugin to make a multi-page website load like a single-page application
+A jQuery plugin to make a multi-page website appear to load like a single-page application
 
 Copyright (c) 2015 Jim Keller, [Eastern Standard](http://easternstandard.com)
 
