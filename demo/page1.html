@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="../src/fakeloader.css">
+        <style type="text/css">
+            div.content-container {
+                height: 250px;
+                width: 100%;
+                border: 4px solid gray;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="fakeloader-overlay" class="visible incoming"><div class="loader-wrapper-outer"><div class="loader-wrapper-inner"><div class="loader"></div></div></div></div>
+
+        <div>
+            <a href="page1.html">Page 1</a>
+        </div>
+        <div>
+            <a href="page2.html">Page 2</a>
+        </div>
+
+        <div class="content-container">This is the fakeloader demo!</div>>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="../dist/fakeloader.min.js"></script>
+        <script>
+
+            $(document).ready(
+                function() {
+                    window.FakeLoader.init( { auto_hide: true } );
+                }
+            );
+
+        </script>
+
+    </body>
+</html>
