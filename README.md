@@ -72,3 +72,6 @@ window.FakeLoader.showOverlay();
 ```javascript
 window.FakeLoader.hideOverlay();
 ```
+
+####DEMO####
+http://jimkeller.github.io/fakeloader/demo/page1.html
